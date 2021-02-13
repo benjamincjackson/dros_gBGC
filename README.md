@@ -30,7 +30,7 @@ Scripts for downloading the *D. mel* reference genome from flybase and for check
 
 `Dsim_annotation/`
 
-Scripts for downloading annotation for the *D. sim* genome from flybase, and for extracting the cooridinates of short intronic (SI) sites.
+Scripts for downloading annotation for the *D. sim* genome from flybase, and for extracting the coordinates of short intronic (SI) sites.
 
 `Dsim_ref/`
 
