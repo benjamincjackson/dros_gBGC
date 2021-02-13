@@ -2,11 +2,15 @@ This respository contains all the scripts necessary to replicate the analyses in
 
 Jackson BC, Charlesworth B. Evidence for a force favouring GC over AT at short intronic sites in *Drosophila simulans* and *D. melanogaster*. *Submitted*
 
-The final, filtered, dataset of genotypes at short intronic sites is available: `data/table.txt`, but the VCF files for the *D. simulans* callset are not in this repository because of file size limitations, and the fasta-format genomes for the *D. melanogaster* data from the Drosophila Population Genomics Project/Drosophila Genome Nexus is publicly available [Lack et al (2015)](https://academic.oup.com/genetics/article/199/4/1229/5935880), [Lack et al (2016)](https://academic.oup.com/mbe/article/33/12/3308/2450097?login). 
+The final, filtered, dataset of genotypes at short intronic sites is available: `data/table.txt`
 
+The pipeline for calling variants in the *D. sim* lines is available [here](https://github.com/benjamincjackson/dsim_variant_pipeline_ref_v2.02), and the resulting VCF files are available from the corresponding author on request.
+
+The genomes for the *D. melanogaster* lines from the Drosophila Population Genomics Project/Drosophila Genome Nexus are publicly available [Lack et al (2015)](https://academic.oup.com/genetics/article/199/4/1229/5935880), [Lack et al (2016)](https://academic.oup.com/mbe/article/33/12/3308/2450097?login).
 Scripts that were used to download and process the *D. mel* data are available under `Dmel_nexus/`
 
-The pipeline for calling variants in the *D. sim* lines is available [here](https://github.com/benjamincjackson/dsim_variant_pipeline_ref_v2.02).
+
+
 
 ----
 
@@ -60,11 +64,11 @@ Scripts and file-structure for running est-sfs as described in the manuscript
 
 `glemin_gamma/`
 
-R code associated with [Glémin et al (2015)](https://genome.cshlp.org/content/25/8/1215.short), imported for some analyses under `scripts/`
+R code from the supplement of [Glémin et al (2015)](https://genome.cshlp.org/content/25/8/1215.short), imported for some analyses under `scripts/`
 
 `intersection_mel_sim_SIs/`
 
-Scripts for finding the intersection of *mel* and *sim* short intronic sites, using the multiple alignment and the annotation of the twp species' genomes.
+Scripts for finding the intersection of *mel* and *sim* short intronic sites, using the multiple alignment and the annotation of the two species' genomes.
 
 `intersection_mel_sim_SIs_CHECK/`
 
