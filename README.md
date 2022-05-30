@@ -1,6 +1,6 @@
 This respository contains all the scripts necessary to replicate the analyses in the paper:
 
-Jackson BC, Charlesworth B. Evidence for a force favouring GC over AT at short intronic sites in *Drosophila simulans* and *D. melanogaster*. *Submitted*
+[Jackson BC, Charlesworth B (2021). Evidence for a force favoring GC over AT at short intronic sites in *Drosophila simulans* and *D. melanogaster*. G3.](https://doi.org/10.1093/g3journal/jkab240)
 
 The final, filtered, dataset of genotypes at short intronic sites is available: `data/table.txt`
 
